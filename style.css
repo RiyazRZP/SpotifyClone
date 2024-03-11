@@ -133,6 +133,7 @@ a{
     height: 2rem;
     margin-top: 0.5rem;
     font-weight: 600;
+    
 }
 
 
@@ -286,7 +287,7 @@ a{
     background-color: white;
     margin-top: -0.3rem;
     height: 0.8rem;
-    width: 00.8rem;
+    width: 0.8rem;
     border-radius: 0.5rem;
 
 }
@@ -355,4 +356,56 @@ a{
     padding-top: 2rem;
 }
 
+
+.controls{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.controlsIcons{
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+
+.progressbar2{
+    appearance: none;
+    color: white;
+    border-radius: 0.5rem;
+    width: 5rem;
+    height: 0.2rem;
+}
+
+.progressbar2::-webkit-slider-thumb{
+      appearance: none;
+      color: white;
+      margin-right : 5rem;
+}
+
+.album{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.albumpicture{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem
+}
+
+.albumicon{
+    height: 1.3rem;
+    
+}
+
+.last{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
 
